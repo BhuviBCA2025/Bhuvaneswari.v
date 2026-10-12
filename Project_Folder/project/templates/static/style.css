@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+textarea {
+    width: 90%;
+    height: 120px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    background: #eeeeee;
+    text-align: left;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduGenie</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>EduGenie</h1>
+    <p>Google Gemini Powered Learning Assistant</p>
+
+    <form method="post" action="/ask">
+
+        <label>Ask your question:</label>
+
+        <textarea name="question"
+                  placeholder="Example: Which is the largest ocean?"
+                  required></textarea>
+
+        <button type="submit">Ask EduGenie</button>
+
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2>Answer</h2>
+        <p>{{ result }}</p>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
